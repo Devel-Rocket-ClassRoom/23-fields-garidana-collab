@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="CodingPractice\CodingPractice.csproj" />
+  <Project Path="ScoreTracker\ScoreTracker.csproj" />
+  <Project Path="ClassroomManager\ClassroomManager.csproj" />
+</Solution>
