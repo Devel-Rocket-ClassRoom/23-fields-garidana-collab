@@ -2,6 +2,7 @@ using System;
 using System.Globalization;
 using System.Numerics;
 using System.Security.Cryptography;
+using System.Threading;
 
 // README.md를 읽고 코드를 작성하세요.
 
@@ -63,3 +64,11 @@ Console.WriteLine();
 // 11
 Example example = new Example();
 example.ShowValues();
+Console.WriteLine();
+
+// 12
+Player_1 p6 = new Player_1();
+p6.SetInfo("용사", 10);
+p6.ShowInfo();
+Console.WriteLine();
+

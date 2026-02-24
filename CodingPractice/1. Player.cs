@@ -49,7 +49,8 @@ class Player_1
 
     public void ShowInfo()
     {
-        Console.WriteLine("이름: " + )
+        Console.WriteLine("이름: " + this.name);
+        Console.WriteLine("레벨: " + this.level);
     }
     
 }
