@@ -72,3 +72,15 @@ p6.SetInfo("용사", 10);
 p6.ShowInfo();
 Console.WriteLine();
 
+// 13
+Person p7 = new Person();
+p7.ShowProfile();
+Console.WriteLine();
+
+// 14
+GameCharacter character1 = new GameCharacter();
+GameCharacter character2 = new GameCharacter();
+character1.ShowStatus("용사", 100, 15);
+character2.ShowStatus("마법사", 100, 25);
+character1.Attack("용사", 100, 15);
+
